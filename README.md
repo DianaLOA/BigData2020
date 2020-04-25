@@ -12,3 +12,5 @@ Trabajos y desarrollos para el curso
 <li>Diego</li>
 <li>Victor</li>
 </ol>
+
+![PANDAREGALON](C:\Users\dlope\Documents\BigData2020\HTML.PNG)
