@@ -90,7 +90,7 @@ areaCuadrado <- function(ladoa,ladob){
   return(ladoa*ladob)
   
 }
-
+#
 areaCuadrado(3,4) 
 
 
@@ -106,5 +106,20 @@ DifAreaCuadrado <- function(cuadrado1,cuadrado2){
 DifAreaCuadrado(2,4)
 
 
+##Crear función promedio##
+
+promedioNotas <- function(notas){
+  
+  notasCursos <- mean(notas)
+  return(notasCursos)
+}
 
 
+  
+calificaciones<-c(1,2,3,4)  
+
+promedioNotas(calificaciones)  
+  
+
+# 
+list.files()
