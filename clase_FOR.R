@@ -129,12 +129,18 @@ length(VectorCombinado)
 
 ##Tarea: Quiero que empiece de otra posicion, por ejemplo: empezar de la posicón 2
 
-for (y in VectorCombinado) {
+for (y in VectorCombinado[2:6]) {
   
   print(y)
   
 }
 
+
+#Si no saben el largo de una variable, pueden darle el rango con length
+# Dos formas de hacer algo similar
+for (y in VectorCombinado[2:length(VectorCombinado)]) {
+  print(y)
+}
 
 
 
